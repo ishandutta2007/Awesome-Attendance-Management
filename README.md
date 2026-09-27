@@ -1,227 +1,106 @@
-# Awesome-Attendance-Management
+# Awesome Attendance Management Systems
 
-## Top Attendance Management System Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub topics](https://img.shields.io/github/topics/ishandutta2007/Awesome-Attendance-Management?color=blue)](https://github.com/ishandutta2007/Awesome-Attendance-Management)
 
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Student Attendance Tracking, Truancy Monitoring & Institutional Compliance*  
-
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Attendance Management Systems**. These tools record, track, and report on student attendance for K-12 schools, higher education institutions, and educational organizations, helping administrators reduce truancy, automate compliance reporting, and improve student outcomes.
-
-
-
-**Examples** include SchoolStatus Attend, PowerSchool Attendance, Teachmint, Fedena, Gradelink, Classter, Alma SIS, MyClassCampus, OpenEduCat, and QuickSchools (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom attendance workflows, and transparent student data management — ideal for schools, districts, researchers, and developers building vendor-independent attendance solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[SchoolStatus Attend](https://www.schoolstatus.com/)**  
-
-  Attendance and communication platform helping districts reduce chronic absenteeism through automated outreach and data-driven intervention.
-
-
-
-- **[PowerSchool Attendance](https://www.powerschool.com/)**  
-
-  Integrated attendance module within the PowerSchool SIS ecosystem, supporting daily and period-based tracking for K-12 districts.
-
-
-
-- **[Teachmint](https://www.teachmint.com/)**  
-
-  Education ERP with attendance management, live classes, and communication tools for schools and coaching institutes.
-
-
-
-- **[Fedena](https://fedena.com/)**  
-
-  Cloud-based school ERP with 50+ features including attendance tracking, examination management, and fee collection.
-
-
-
-- **[Gradelink](https://www.gradelink.com/)**  
-
-  Easy-to-use student information system for private schools with integrated attendance, gradebook, and enrollment tools.
-
-
-
-- **[Classter](https://www.classter.com/)**  
-
-  All-in-one SIS, SMS, and LMS platform with customizable attendance modules for K-12 and higher education institutions.
-
-
-
-- **[Alma SIS](https://www.getalma.com/)**  
-
-  Modern student information system with attendance tracking, grading, and communication tools designed for educator efficiency.
-
-
-
-- **[MyClassCampus](https://www.myclasscampus.com/)**  
-
-  School management platform with attendance automation, student engagement tools, and real-time analytics.
-
-
-
-- **[OpenEduCat](https://openeducat.org/)**  
-
-  Open-source education ERP with attendance management, admission, and academic scheduling modules.
-
-
-
-- **[QuickSchools](https://www.quickschools.com/)**  
-
-  Online student information system for schools of all sizes, supporting attendance tracking from admissions through graduation.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[openSIS Classic](https://github.com/OS4ED/openSIS-Classic)**  
-
-  Mature, GPL-licensed Student Information System for K-12, trade schools, and higher education. Features comprehensive attendance management, scheduling, grades, teacher gradebook, progress reports, report cards, and built-in communication. Community Edition version 9.3 released June 2026. Requires Apache 2.4+, MySQL 5.7/8.0 or MariaDB 10.4+, and PHP 8.x .
-
-
-
-- **[OpenEMIS Core](https://www.openemis.org/)**  
-
-  Free, open-source (GNU GPL v3.0) Education Management Information System used by ministries of education worldwide. Collects and reports on student attendance, behavior, and progress; teacher attendance; and institutional data. Version 5 (2026) brings improved performance, security, and new reporting features. Designed to support SDG4 monitoring and is fully customizable to local contexts .
-
-
-
-- **[DHIS2 for Education / SEMIS](https://education.dhis2.org/)**  
-
-  Free and open-source Student-Staff-School app developed with Ministries of Education in the global south. Take attendance quickly on web and Android mobile devices in online and offline mode. Manages student progress, staff registration, and customizable monitoring. The broader DHIS2 platform provides dashboards, data visualization, and integration with health and other sector programs .
-
-
-
-- **[Frappe Education](https://github.com/frappe/education)**  
-
-  Open-source education management system built on the Frappe Framework and ERPNext. Features student and teacher management with attendance, admission management, fee management, course scheduling, exam planning, and a student portal for checking attendance and grades. Easily deployable via Frappe Cloud or Docker .
-
-
-
-- **[Vidra](https://github.com/sandeeep-prajapati/Vidra)**  
-
-  MIT-licensed school management system built with Django. Includes daily student attendance (Present, Absent, Leave), teacher/staff attendance tracking, student and teacher leave requests with approval workflow, and holiday calendar management. Also features event RSVP and attendance tracking, fee management, and role-based access control .
-
-
-
-- **[SIASIS](https://github.com/GeoCoderDev/SIASIS)**  
-
-  School attendance system designed specifically for a Peruvian school (I.E. 20935). Improves control and management of student attendance, tardiness, and recurring absences through a centralized platform. Generates automated Excel reports, sends alerts to student guardians, and schedules follow-up tasks for absenteeism patterns. Built with Next.js 14, TypeScript, PostgreSQL, and Vercel. Accessible design with voice commands and keyboard shortcuts for visually impaired users. Active development .
-
-
-
-- **[AttendEase](https://github.com/HarryFoster1812/AttendEase)**  
-
-  Web-based attendance management system built with PHP, MySQL, and Bootstrap. Features geolocation-based attendance verification, backup code system for failed geolocation, role-based access control (Student, Lecturer, GTA, Admin), calendar-based attendance view, absence appeals workflow, and leaderboard system incentivizing participation. Includes statistics and reports for tracking engagement .
-
-
-
-- **[SmartAttend](https://github.com/gopi-c-k/smart-attendance-app)**  
-
-  Full-stack, offline WiFi-based secure attendance system featuring Flutter apps for faculty and students, plus Node.js + MongoDB backend. Uses local WiFi discovery, biometric fingerprint authentication, and real-time synchronization to prevent proxy attendance. Works fully offline on local network and syncs to backend when internet becomes available. Session-based classroom code validation and mDNS service discovery .
-
-
-
-- **[Smart Attendance System](https://github.com/aashishrai3799/Automated-Attendance-System-using-CNN)**  
-
-  End-to-end real-time face identification and attendance system using CNN. Python-based with 99+ stars. Automates attendance marking through facial recognition, eliminating manual roll calls .
-
-
-
-- **[QR-Attendance-System](https://github.com/AzeemIdrisi/QR-Attendance-System)**  
-
-  Hassle-free QR-based solution for marking attendance within a college network. Flask-based with secure login, dynamic CSV export, and relational database for streamlined tracking and reporting. 46+ stars .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Student Attendance Management System** — PHP-based system with 26+ stars, featuring a BookMyShow/RedBus-style layout for taking attendance and managing various institutional processes .
-
-- **STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION** — Python/OpenCV project with 68+ stars for automated attendance using facial recognition .
-
-- **Attendance-Management-System** — Multiple implementations available including Java, C#, and Python variants for educational institutions .
-
-- **Geo-Location Attendance System** — Location-based attendance for college students, ensuring physical presence within designated areas .
-
-- **i-attendance** — Contact-less student attendance Android/iOS app for education institutions, built for pandemic-era climate .
-
-
-
-**Frameworks for building custom attendance solutions**: For comprehensive SIS with attendance, combine **openSIS** or **OpenEMIS Core** as the foundation. For modern Python/Django stacks, **Vidra** or **Frappe Education** provide ready-to-deploy solutions. For specialized use cases, **AttendEase** demonstrates geolocation-based verification, **SmartAttend** shows offline WiFi-based approaches, and various facial recognition projects offer automated alternatives. **DHIS2 for Education** is ideal for national-level or ministry-scale deployments requiring integration with health and other sectors.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Attendance management tools must comply with data privacy regulations (FERPA, GDPR, COPPA, etc.) and local education laws regarding student data handling.
-
-- Self-hosted open-source solutions require proper security, data backup, and ongoing maintenance.
-
-
+> A curated directory of **Student Attendance Management Systems**, **School Information Systems (SIS)**, and **EdTech Attendance Software**. Featuring commercial SaaS platforms, open-source projects, biometrics, facial recognition, and geolocation-based tracking for K-12 schools, higher education, and educational organizations.
 
 ---
 
+## Table of Contents
 
+- [Industry Market Overview](#industry-market-overview)
+- [SaaS & Commercial Platforms](#saas--commercial-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Institutional & Foundation Software](#institutional--foundation-software)
+- [Key Features to Look For](#key-features-to-look-for)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for schools, districts, education administrators, and edtech developers.**  
+---
 
-Let's make attendance management more open, transparent, and effective.
+## Industry Market Overview
+
+> **Estimated Market Size & Industry Structure**: The global **Student Attendance & School Management Software Market** is valued at approximately **$3.5 Billion** and is projected to reach **$7.2 Billion** (growing at a CAGR of ~12.5%). The market is **highly fragmented**, characterized by regional Student Information System (SIS) market leaders, localized state compliance solutions, and specialized EdTech integrations rather than a single "winner-take-all" monopoly.
+
+---
+
+## SaaS & Commercial Platforms
+
+Below is a comparison of leading SaaS attendance management software, ordered by **Company Scale / Valuation / Revenue** (descending).
+
+| Platform / Product | Description | Company Scale / Valuation / Revenue | Starting Pricing | Free Tier / Free Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[PowerSchool Attendance](https://www.powerschool.com/)** | Comprehensive enterprise SIS attendance tracking for K-12 districts with daily, period, and truancy monitoring. | **~$5.6B Valuation** (Acquired by Bain Capital), ~$700M+ ARR | Est. $5.00 – $10.00 / student / year ($1,000/yr district min. contract) | **No free trial**; personalized live interactive demos available upon request |
+| **[Teachmint](https://www.teachmint.com/)** | All-in-one Education ERP & smart classroom platform with automated attendance tracking. | **$500M Valuation** (Series B), ₹102 Cr (~$12M+) FY25 Revenue | Starting at ~$5.00 / user / year (or ₹1.2L–₹1.8L for digital board bundle) | **14-day free trial**; limited to 5GB cloud storage & 10 teacher accounts |
+| **[SchoolStatus Attend](https://www.schoolstatus.com/)** | Data-driven attendance & truancy intervention software designed to reduce chronic absenteeism. | **Est. $40M+ ARR** (Backed by PSG Equity) | ~$1,500 / campus / year (or ~$2.50 / student / year for attendance module) | **No free trial** for district SIS; free tier available only for basic parent app (*SchoolStatus Connect*) |
+| **[Alma SIS](https://www.getalma.com/)** | Modern, cloud-based SIS featuring automated attendance, gradebooks, and parent messaging. | **Est. $5M – $12M ARR** | Est. $500 / year base fee ($6.00 – $12.00 / student / year) | **No free trial**; customized product tours available upon request |
+| **[Fedena](https://fedena.com/)** | Cloud-based school ERP with 50+ modules including attendance, fee collection, and exam management. | **~$5.4M ARR** (Acquired by Practically) | $999 – $1,699 / year for Cloud Standard Edition | **14-day free trial** (no credit card required) + Free self-hosted Community Edition |
+| **[Gradelink](https://www.gradelink.com/)** | Intuitive SIS for private and charter schools with attendance tracking, report cards, and enrollments. | **Est. $3M – $8M ARR** | $117 – $121 / month (base tier for up to 50 students) | **Free sandbox demo account** preloaded with sample data (no credit card required) |
+| **[OpenEduCat](https://openeducat.org/)** | Enterprise education ERP offering student attendance, admissions, and academic scheduling. | **Est. $2M – $5M ARR** (3M+ users globally) | Enterprise starting at $489 / year base + $79 / module / year (or $349/yr per 500-user pack) | **15-day Enterprise trial** (no credit card required) + Free LGPL Community Edition (unlimited students) |
+| **[QuickSchools](https://www.quickschools.com/)** | Lightweight cloud student information system supporting attendance from admissions through graduation. | **Est. $2M – $5M ARR** | $0.99 / student / month (Gaia plan, minimum 30 students = $29.70/month) | **30-day full-featured free trial** (no credit card required) |
+| **[Classter](https://www.classter.com/)** | Modular SIS/LMS platform with customizable attendance modules for K-12 and higher education. | **Est. $1M – $5M ARR** ($611K Seed raised) | €3.00 – €8.50 / student / year (€250 / year minimum package) | **No self-service free trial**; personalized 30-minute sandbox demo available upon request |
+| **[MyClassCampus](https://www.myclasscampus.com/)** | School management platform with biometric attendance integration and real-time student analytics. | **Est. ₹10 Cr – ₹50 Cr** ($1.2M – $6M ARR, Acquired by Teachmint) | ₹100 – ₹150 (~$1.20 – $1.80) / student / year | **7-day free trial** / guided demo setup available upon request |
+
+---
+
+## Open-Source GitHub Projects
+
+Top open-source attendance management systems, facial recognition tools, and school management repositories, sorted by **GitHub Stars** (descending).
+
+| Repository / Project | Stars | Tech Stack | Key Features & Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **[changeweb/Unifiedtransform](https://github.com/changeweb/Unifiedtransform)** | [![GitHub stars](https://img.shields.io/github/stars/changeweb/Unifiedtransform?style=social&color=white)](https://github.com/changeweb/Unifiedtransform/stargazers) | PHP / Laravel / Vue.js | Full-featured school management platform with student/teacher attendance tracking, gradebook, and course scheduling. |
+| **[ChurchCRM/CRM](https://github.com/ChurchCRM/CRM)** | [![GitHub stars](https://img.shields.io/github/stars/ChurchCRM/CRM?style=social&color=white)](https://github.com/ChurchCRM/CRM/stargazers) | PHP / MySQL / Bootstrap | Open-source membership and check-in system with attendance tracking for classes, events, and groups. |
+| **[frappe/education](https://github.com/frappe/education)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/education?style=social&color=white)](https://github.com/frappe/education/stargazers) | Python / Frappe / ERPNext | Comprehensive ERPNext education module with daily student attendance, leave applications, fees, and student portal. |
+| **[francoisjacquet/rosariosis](https://github.com/francoisjacquet/rosariosis)** | [![GitHub stars](https://img.shields.io/github/stars/francoisjacquet/rosariosis?style=social&color=white)](https://github.com/francoisjacquet/rosariosis/stargazers) | PHP / PostgreSQL / Web | Mature Student Information System featuring daily/period attendance, truancy alerts, teacher gradebook, and PDF reports. |
+| **[kmhmubin/Face-Recognition-Attendance-System](https://github.com/kmhmubin/Face-Recognition-Attendance-System)** | [![GitHub stars](https://img.shields.io/github/stars/kmhmubin/Face-Recognition-Attendance-System?style=social&color=white)](https://github.com/kmhmubin/Face-Recognition-Attendance-System/stargazers) | Python / OpenCV / Tkinter | Real-time face detection and identification attendance marking system with GUI dashboard and CSV exports. |
+| **[amfoss/attendance-tracker](https://github.com/amfoss/attendance-tracker)** | [![GitHub stars](https://img.shields.io/github/stars/amfoss/attendance-tracker?style=social&color=white)](https://github.com/amfoss/attendance-tracker/stargazers) | Python / Django / REST | Web-based attendance tracker for organizations and clubs with automated session recording and analytical reports. |
+| **[OS4ED/openSIS-Classic](https://github.com/OS4ED/openSIS-Classic)** | [![GitHub stars](https://img.shields.io/github/stars/OS4ED/openSIS-Classic?style=social&color=white)](https://github.com/OS4ED/openSIS-Classic/stargazers) | PHP / MySQL / Apache | GPL-licensed commercial-grade SIS with period-based attendance management, custom reporting, and teacher gradebook. |
+| **[aashishrai3799/Automated-Attendance-System-using-CNN](https://github.com/aashishrai3799/Automated-Attendance-System-using-CNN)** | [![GitHub stars](https://img.shields.io/github/stars/aashishrai3799/Automated-Attendance-System-using-CNN?style=social&color=white)](https://github.com/aashishrai3799/Automated-Attendance-System-using-CNN/stargazers) | Python / Keras / OpenCV | Deep learning CNN implementation for contact-free automated classroom roll call using facial recognition. |
+| **[gopi-c-k/smart-attendance-app](https://github.com/gopi-c-k/smart-attendance-app)** | [![GitHub stars](https://img.shields.io/github/stars/gopi-c-k/smart-attendance-app?style=social&color=white)](https://github.com/gopi-c-k/smart-attendance-app/stargazers) | Flutter / Node.js / MongoDB | Offline-first WiFi discovery attendance verification app with biometric fingerprint validation to block proxy attendance. |
+| **[AzeemIdrisi/QR-Attendance-System](https://github.com/AzeemIdrisi/QR-Attendance-System)** | [![GitHub stars](https://img.shields.io/github/stars/AzeemIdrisi/QR-Attendance-System?style=social&color=white)](https://github.com/AzeemIdrisi/QR-Attendance-System/stargazers) | Python / Flask / SQLite | Dynamic QR-code scanning attendance system tailored for university lectures with real-time CSV data exports. |
+| **[HarryFoster1812/AttendEase](https://github.com/HarryFoster1812/AttendEase)** | [![GitHub stars](https://img.shields.io/github/stars/HarryFoster1812/AttendEase?style=social&color=white)](https://github.com/HarryFoster1812/AttendEase/stargazers) | PHP / MySQL / Bootstrap | Geolocation-verified web attendance software featuring absence appeals workflow and leaderboard incentives. |
+| **[GeoCoderDev/SIASIS](https://github.com/GeoCoderDev/SIASIS)** | [![GitHub stars](https://img.shields.io/github/stars/GeoCoderDev/SIASIS?style=social&color=white)](https://github.com/GeoCoderDev/SIASIS/stargazers) | Next.js 14 / TS / PostgreSQL | Modern school attendance system for tracking tardiness, sending guardian SMS alerts, and accessible voice UI. |
+| **[sandeeep-prajapati/Vidra](https://github.com/sandeeep-prajapati/Vidra)** | [![GitHub stars](https://img.shields.io/github/stars/sandeeep-prajapati/Vidra?style=social&color=white)](https://github.com/sandeeep-prajapati/Vidra/stargazers) | Python / Django / SQLite | Lightweight web application for daily student and teacher attendance, leave management, and holiday scheduling. |
+
+---
+
+## Institutional & Foundation Software
+
+Large-scale, multi-country, or government-backed open-source platforms designed for ministries of education and national infrastructure:
+
+- **[OpenEMIS Core](https://www.openemis.org/)**  
+  *Free & Open-Source (GNU GPL v3.0)* — Global Education Management Information System deployed by Ministries of Education worldwide to track student attendance, teacher absence, and school performance metrics in line with UNESCO SDG4 monitoring goals.
+- **[DHIS2 for Education / SEMIS](https://education.dhis2.org/)**  
+  *Free & Open-Source* — Modular Student-Staff-School management platform used by education authorities across developing nations. Supports offline-first attendance recording via Android devices and web dashboards.
+
+---
+
+## Key Features to Look For
+
+When choosing an Attendance Management System for your school or district, evaluate:
+
+1. **Verification Method**: Manual roll call, Dynamic QR code scanner, Geolocation fencing, WiFi network discovery, or Facial recognition (CNN/OpenCV).
+2. **Offline-First Support**: Ability to mark attendance without active internet and auto-sync when back online.
+3. **Parent & Guardian Alerts**: Automated SMS, WhatsApp, or email notifications for unexcused absences and tardiness patterns.
+4. **Data Privacy & Compliance**: Compliance with FERPA, GDPR, COPPA, and local student data privacy regulations.
+5. **Integrations**: Native connectivity with existing SIS (PowerSchool, Alma, openSIS), LMS (Canvas, Moodle), and government reporting tools.
+
+---
+
+## How to Contribute
+
+Contributions are highly welcome! To add a SaaS platform or open-source repository:
+
+1. Fork the repository.
+2. Add your entry into `README.md` following the table schema.
+3. Ensure accurate details: starting price, free tier limits, star badges, and links.
+4. Open a Pull Request with a clear summary.
+
+---
+
+## Disclaimer
+
+This repository is a community-curated collection for educational and research purposes. Inclusion does not constitute endorsement. Always verify security, data privacy policies, and licensing requirements prior to deployment.
